@@ -1,0 +1,221 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  transition: .2s;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.mainpage{
+  height: 300px;
+  width: 1500px;
+  padding: 30px;
+  margin-left: 90px;
+}
+.about{
+  margin-top: 60px;
+font-size: larger;
+  text-align: left;
+  margin-left: 40px;
+  color: rgb(45, 44, 44);
+}
+.about1{
+  font-weight:lighter;
+  margin-top: 5px;
+  text-decoration: wavy;
+  text-indent: 20px;
+  padding: 30px;
+  row-gap: 22px;
+  column-gap: 14px;
+  font-style: normal;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-variant-caps:initial;
+}
+.title{
+  margin-top: 750px;
+  text-align: center;
+  color: red;
+  font-size: xx-large;
+  text-shadow: black;
+  text-decoration-style: solid;
+}
+.quote{
+  margin-top: 20px;
+  text-align: center;
+  font-size: larger;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #239f85;
+  text-shadow: #239f85;
+}
+.aim{
+  text-align: center;
+  margin-top: 20px;
+  font-family:Candara;
+  font-weight: lighter;
+  
+}
+.awards{
+  background-image: url("images/awards.jpg");
+  height: 140vh;
+  background-size: cover;
+  width: 1700px;
+  background-repeat: no-repeat;
+  align-items: center;
+  margin-top: -20px;
+
+}
+.awards h1{
+  background-color: #4169e1 ;
+  height: 100px;
+  width: 600px;
+  margin-left: 550px;
+  margin-top: 50px;
+  padding: 25px;
+  text-align: center;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  margin-top: 20px;
+  padding-left: 35px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.vidio{
+  margin-left: 300px;
+  padding: 20px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.slowFade {
+  display: flex;
+  align-items: flex-start;
+  background-image: url("images/virtualbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+  width: 1700px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 1200px;
+  padding-left:530px;
+  padding-top: 400px;
+  
+}
+.slowFade .slide img {
+  position: absolute;
+  height: 500px;
+  width: 600px;
+  margin-left: 160px;
+  margin-top: -150px;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  opacity: 0;
+  transform: scale(2.5) rotate(0deg);
+  -webkit-animation: slowFade 30s infinite;
+          animation: slowFade 30s infinite;
+}
+.slowFade .slide:nth-child(3) img {
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+}
+.slowFade .slide:nth-child(2) img {
+  -webkit-animation-delay: 16s;
+          animation-delay: 16s;
+}
+.slowFade .slide:nth-child(1) img {
+  -webkit-animation-delay: 24s;
+          animation-delay: 24s;
+}
+@keyframes slowFade {
+  25% {
+      opacity: 1;
+      transform: scale(1) rotate(0);
+  }
+  40% {
+      opacity: 0;
+  }
+}
+@-webkit-keyframes slowFade {
+  25% {
+      opacity: 1;
+      transform: scale(1) rotate(0);
+  }
+  40% {
+      opacity: 0;
+  }
+}
+  body {
+  font-family:Arial, Helvetica, sans-serif;
+  font-variant: small-caps;
+        font-weight: 900;
+  }
+  
+  a {
+  text-decoration-line: none;
+
+  }
+  
+  li {
+  list-style-type: none;
+  }
+  .navbar {
+  display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px;
+   padding-left: 40px;
+    background-color:  #239f85;
+    color: #fff;
+    }
+    
+    .nav-links a {
+    color: #fff;
+    }
+    
+    /* LOGO */
+    .logo {
+    font-size: 32px;
+    }
+    #logo{
+      height: 70px;
+      width:80px
+    }
+    
+    /* NAVBAR MENU */
+    .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+    }
+    div.mainservices{
+        height: 200px;
+        width: 1420px;
+        padding: 40px;
+        margin-left: 130px;
+    }
+    
+    .menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    }
+    
+    .menu li {
+    padding: 5px 14px;
+    }
+    
+    /* DROPDOWN MENU */
+    .services {
+    position: relative; 
+    }
+    
